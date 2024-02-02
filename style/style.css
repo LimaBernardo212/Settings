@@ -1,0 +1,32 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #323940f9;
+}
+header > img{
+    height: 80px;
+    width: 180px;
+}
+header nav{
+    display: inline-flex;
+}
+header nav > a{
+    padding: 30px;
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: 550;
+}
+header nav > a:hover{
+    font-weight: 560;
+    text-decoration: underline;
+}
