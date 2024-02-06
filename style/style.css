@@ -77,3 +77,6 @@ section#presentation > h1{
     line-height:1.5;
     
 }
+iframe{
+    display: none;
+}
