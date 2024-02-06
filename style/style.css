@@ -47,7 +47,7 @@ section#presentation{
     height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 99vw;
+    width: 100vw;
     align-items: center;
 }
 section#presentation > img{
