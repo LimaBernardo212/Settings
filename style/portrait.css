@@ -1,0 +1,23 @@
+@charset "UTF-8";
+nav{
+    display: none;
+}
+a#burguinho{
+    display: block;
+}
+a#burguinho > img{
+    width: 45%;
+}
+section#presentation > img{
+    width: 75%;
+    margin-top: -60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+section#presentation > h1{
+    font-size: 2em;
+    padding: 0px 15px 0px 10px;
+    margin: auto;
+    max-width: 350px;
+    margin-top: -20px;
+}

@@ -26,9 +26,6 @@ header > img{
     height: 80px;
     width: 180px;
 }
-header nav{
-    display: inline-flex;
-}
 header nav > a{
     padding: 30px;
     color: var(--cor05);
@@ -39,6 +36,9 @@ header nav > a{
 header nav > a:hover{
     font-weight: 560;
     text-decoration: underline;
+}
+a#burguinho{
+    display: none;
 }
 section#presentation{
     display: inline-flex;
@@ -52,7 +52,7 @@ section#presentation{
 }
 section#presentation > img{
     margin-left: 30px;
-    margin-top: -150px;
+    margin-top: -70px;
    margin-right: 30px;
 }
 section#presentation > h1{
@@ -61,6 +61,8 @@ section#presentation > h1{
     color: var(--cor05);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    width: 700px;
+    margin-left: 25px;
 }
 .title::before{
     content: '—';
