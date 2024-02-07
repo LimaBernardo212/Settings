@@ -38,7 +38,10 @@ header nav > a:hover{
     text-decoration: underline;
 }
 a#burguinho{
-    display: none;
+    display: block;
+}
+a#burguinho > img{
+    width: 45%;
 }
 section#presentation{
     display: inline-flex;
@@ -91,18 +94,18 @@ iframe{
     border: 3px solid rgb(210, 210, 210);
     color: rgb(210, 210, 210);
 }
-.burger{
-    display: none;
+#burger{
+    display: block;
     width: 100vw;
-    height: 100vh;
-    background-color: var(--cor04);
+    height: 83.3vh;
+    background-color: var(--cor01);
 }
-.burger > ul{
+#burger > ul{
     padding: 30px 30px;
     margin: auto;
    
 }
-.burger > ul > a > li{
+#burger > ul > a > li{
     padding: 10px;
     margin-top: 20px;
     background-color: var(--cor01);
@@ -114,9 +117,12 @@ iframe{
     border-radius: 10px;
     
 }
-.burger > ul > a{
+#burger > ul > a{
     text-decoration: none;
 }
-.burger > ul > a > li:hover{
+#burger > ul > a > li:hover{
     background-color:#292f35;
+}
+nav > img{
+    width: 10%;
 }
