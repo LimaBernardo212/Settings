@@ -49,6 +49,8 @@ section#presentation{
     background-size: cover;
     width: 100vw;
     align-items: center;
+    border-radius: 0%;
+    margin: auto;
 }
 section#presentation > img{
     margin-left: 30px;
@@ -79,4 +81,42 @@ section#presentation > h1{
 }
 iframe{
     display: none;
+}
+#conosco{
+    border: 3px  solid var(--cor05);
+    padding: 20px;
+}
+#conosco:hover{
+    text-decoration: none;
+    border: 3px solid rgb(210, 210, 210);
+    color: rgb(210, 210, 210);
+}
+.burger{
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--cor04);
+}
+.burger > ul{
+    padding: 30px 30px;
+    margin: auto;
+   
+}
+.burger > ul > a > li{
+    padding: 10px;
+    margin-top: 20px;
+    background-color: var(--cor01);
+    
+    list-style: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 1.3em;
+    border-radius: 10px;
+    
+}
+.burger > ul > a{
+    text-decoration: none;
+}
+.burger > ul > a > li:hover{
+    background-color:#292f35;
 }
