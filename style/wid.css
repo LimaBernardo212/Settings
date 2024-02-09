@@ -1,0 +1,9 @@
+nav{
+    display: none;
+}
+a#burguinho{
+    display: block;
+}
+a#burguinho > img{
+    width: 45%;
+}

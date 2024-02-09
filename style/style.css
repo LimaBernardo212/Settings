@@ -38,7 +38,7 @@ header nav > a:hover{
     text-decoration: underline;
 }
 a#burguinho{
-    display: block;
+    display: none;
 }
 a#burguinho > img{
     width: 45%;
@@ -125,4 +125,31 @@ iframe{
 }
 nav > img{
     width: 10%;
+}
+div > em > h1{
+    display: inline-flex;
+    font-size: 1.2em;
+    padding: 15px;
+    font-weight: lighter;
+}
+div{
+    
+    background-color: rgba(245, 245, 245, 0.37);
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    color: rgba(0, 0, 0, 0.897);
+    border-radius: 10%;
+    box-shadow: 1px 1px 3px 3px #1c20241e;
+    padding: 20px;
+    text-align: justify;
+}
+div > img{
+    display: inline-flex;
+    width: 20%;
+    height: 60px;
+}
+a.ancor:hover{
+    transform: translate(-5px, -5px);
+    transition: transform 0.5s border 1s;
 }
