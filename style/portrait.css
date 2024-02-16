@@ -23,20 +23,19 @@ section#presentation > h1{
 }
 
 .diver{
-    margin: 50px;
-    margin-left: 20px;
-}
-.diver:hover{
-    width: 80vw;
-    height: 40vh;
+    width: 70vw;
+    height: 50vh;
+    display: block;
 }
 .diver:hover > img{
-    width: 60px;
-    height: 70px;
+    width: 100px;
+    height: 110px;
 }
 .diver > img{
-    margin-right: 20px;
+    width: 50vw;
+    height: 50vh;
+    margin: 0px 0px 30px 40px;
 }
-.diver > .ocult > .none > p{
+.diver > p {
     max-width: 200px;
 }
