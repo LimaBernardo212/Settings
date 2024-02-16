@@ -24,6 +24,7 @@ section#presentation > h1{
 
 .diver{
     margin: 50px;
+    margin-left: 20px;
 }
 .diver:hover{
     width: 80vw;
