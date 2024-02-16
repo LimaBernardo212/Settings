@@ -30,11 +30,11 @@ section#presentation > h1{
 }
 .diver:hover > img{
     width: 100px;
-    height: 110px;
+    height: 100px;
 }
 .diver > img{
-    width:  35vw;
-    height: 35vh;
+    width:  250px;
+    height: 250px;
     margin: 0px 0px 40px 50px;
 }
 .diver > p {
