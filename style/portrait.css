@@ -26,6 +26,7 @@ section#presentation > h1{
     width: 70vw;
     height: 50vh;
     display: block;
+    margin-top: 20px;
 }
 .diver:hover > img{
     width: 100px;
