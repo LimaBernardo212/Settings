@@ -29,6 +29,10 @@ section#presentation > h1{
     width: 80vw;
     height: 40vh;
 }
+.diver:hover > img{
+    width: 60px;
+    height: 70px;
+}
 .diver > img{
     margin-right: 20px;
 }
