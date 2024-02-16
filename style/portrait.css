@@ -21,3 +21,17 @@ section#presentation > h1{
     max-width: 350px;
     margin-top: -20px;
 }
+
+.diver{
+    margin: 50px;
+}
+.diver:hover{
+    width: 80vw;
+    height: 40vh;
+}
+.diver > img{
+    margin-right: 20px;
+}
+.diver > .ocult > .none > p{
+    max-width: 200px;
+}
