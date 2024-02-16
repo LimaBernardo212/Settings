@@ -33,9 +33,9 @@ section#presentation > h1{
     height: 110px;
 }
 .diver > img{
-    width: 40vw;
+    width:  35vw;
     height: 35vh;
-    margin: 0px 0px 30px 40px;
+    margin: 0px 0px 40px 50px;
 }
 .diver > p {
     max-width: 200px;
