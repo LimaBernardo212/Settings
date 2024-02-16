@@ -23,21 +23,27 @@ section#presentation > h1{
 }
 
 .diver{
-    width: 30vw;
-    height: 30vh;
+    width: 125px;
+    height: 125px;
     display: block;
     margin-top: 20px;
+    padding: 10px;
 }
 .diver:hover > img{
-    width: 20vw;
-    height: 20vh;
-    margin: 0px 20px 0px 20px;
+    width: 100px;
+    height: 100px;
+    margin: 0px 20px 10px 20px;
+}
+.diver:hover{
+    width: 100vw;
+    height: 100vh;
 }
 .diver > img{
-    width:  20vw;
-    height: 20vh;
+    width:  100px;
+    height: 100px;
     margin: 0px 20px -30px 20px;
 }
 .diver > p {
+    min-width: 70px;
     max-width: 200px;
 }
