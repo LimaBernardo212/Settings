@@ -4,6 +4,7 @@ nav{
 }
 a#burguinho{
     display: block;
+    margin-right: 20px;
 }
 a#burguinho > img{
     width: 45%;
@@ -23,27 +24,17 @@ section#presentation > h1{
 }
 
 .diver{
-    width: 125px;
-    height: 125px;
-    display: block;
+    display: inline-flex;
+    width: 100vw;
     margin-top: 20px;
     padding: 10px;
-}
-.diver:hover > img{
-    width: 100px;
-    height: 100px;
-    margin: 0px 20px 10px 20px;
-}
-.diver:hover{
-    width: 100vw;
-    height: 100vh;
 }
 .diver > img{
     width:  100px;
     height: 100px;
     margin: 0px 20px -30px 20px;
 }
-.diver > p {
-    min-width: 70px;
-    max-width: 200px;
+.diver  p{
+    display: inline-flex;
+    width: 50vw;
 }

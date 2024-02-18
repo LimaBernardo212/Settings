@@ -8,7 +8,7 @@
     --cor05: #F2F2F2;
     --cor06: #1c2024;
     --fontNormal: 'Roboto';
-    --fontTitle: 'Roboto Condensed';
+    --fontTitle: 'Roboto Mono';
 }
 *{
     margin: 0px;
@@ -17,6 +17,7 @@
 header{
     position: sticky;
     display: flex;
+    width: 100.5vw;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
@@ -52,7 +53,7 @@ section#presentation{
     height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100vw;
+    width: 105vw;
     align-items: center;
     border-radius: 0%;
     margin: auto;
@@ -139,12 +140,11 @@ nav > img{
     display: inline-flex;
     font-family: var(--fontNormal);
     background-color: rgba(245, 245, 245, 0);
-    width: 100px;
-    height: 110px;
+
     margin: auto;
     color: rgba(0, 0, 0, 0.897);
     border-radius: 10%;
-    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.13);
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0);
     padding: 20px;
     text-align: justify;
 }
@@ -154,35 +154,18 @@ nav > img{
     height: 100px;
     margin: auto;
 }
-.diver:hover{
-    width: 600px;
-    height: 300px;
-}
-.none{
-    box-shadow: 1px 1px 1px white;
-    padding-left: 0px;
-    width: 300px;
-    margin-left: 0px;
-}
-div:hover > .ocult > .none{
-    display: block;
-}
 h1{
-    font-family: var(--fontNormal);
+    font-family: var(--fontTitle);
+    margin: 10px;
     font-weight: normal;
 }
-article{
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
-}
-.ocult{
-    display: block;
-    width: 300px;
-}
-.ocult > div{
-    display: none;
+
+p{
+    display: inline-flex;
+    max-width: 300px;
+    line-height: 1.4em;
+    margin-left: 20px;
 }
 .ocult > div > h1{
-    font-size: 1.3em;
+    font-size: 1.0em;
 }
