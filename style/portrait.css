@@ -30,6 +30,7 @@ section#presentation > h1{
     display: inline-flex;
     width: 50.6vw;
     margin-top: 20px;
+    margin-left: -10px;
 }
 .diver > img{
     width:  100px;
