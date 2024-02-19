@@ -30,20 +30,20 @@ section#presentation > h1{
     display: inline-flex;
     width: 50.6vw;
     margin-top: 20px;
-    margin-left: -10px;
+    margin-left: 0px;
 }
 .diver > img{
     width:  80px;
     height: 80px;
-    margin: 0px 20px -30px 10px;
+    margin: 0px 20px -30px 0px;
 }
 .diver  p{
     display: inline-flex;
     width: 50vw;
 }
 #diveren{
-    margin-left: 10px;
+    margin-left: 0px;
 }
 #divere{
-    margin-left: 10px;
+    margin-left: 0px;
 }
