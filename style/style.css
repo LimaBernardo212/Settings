@@ -129,8 +129,8 @@ iframe{
 nav > img{
     width: 10%;
 }
-h1{
-    display: inline-flex;
+.diver h1{
+    display: block;
     font-size: 1.2em;
     padding: 15px;
     font-weight: 400;
@@ -150,7 +150,7 @@ h1{
     display: inline-flex;
     width: 90px;
     height: 100px;
-    margin: auto;
+    margin: 10px;
 }
 h1{
     font-family: var(--fontTitle);
@@ -174,7 +174,7 @@ p{
 }
 .p{
     display: block;
-    margin-left: 50px;
+    margin-left: 10px;
     padding: 20px;
     font-family: var(--fontNormal);
     font-size: 1.05em;

@@ -27,23 +27,24 @@ section#presentation > h1{
 }
 
 .diver{
-    display: inline-flex;
+    display: block;
     width: 50.6vw;
     margin-top: 20px;
-    margin-left: 0px;
+    margin: auto;
 }
 .diver > img{
+    display: block;
     width:  80px;
     height: 80px;
-    margin: 0px 20px -30px 0px;
+    margin: 0px 20px  20px 0px;
 }
 .diver  p{
-    display: inline-flex;
+    display: block;
     width: 50vw;
 }
 #diveren{
-    margin-left: 0px;
+    margin: auto;
 }
 #divere{
-    margin-left: 0px;
+margin: auto; 
 }
