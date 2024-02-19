@@ -9,6 +9,9 @@ a#burguinho{
 a#burguinho > img{
     width: 45%;
 }
+section#presentation{
+    width: 96.6vw;
+}
 section#presentation > img{
     width: 75%;
     margin-top: -60px;
@@ -25,16 +28,21 @@ section#presentation > h1{
 
 .diver{
     display: inline-flex;
-    width: 100vw;
+    width: 50.6vw;
     margin-top: 20px;
-    padding: 10px;
 }
 .diver > img{
     width:  100px;
     height: 100px;
-    margin: 0px 20px -30px 20px;
+    margin: 0px 20px -30px 10px;
 }
 .diver  p{
     display: inline-flex;
     width: 50vw;
+}
+#diveren{
+    margin-left: 10px;
+}
+#divere{
+    margin-left: 10px;
 }
