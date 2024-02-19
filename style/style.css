@@ -79,7 +79,7 @@ section#presentation > h1{
 }
 .title{
     color: black;
-    margin-left: 35px;
+    margin-left: 10vw;
     font-size: 3em;
     line-height:1.5;
     
@@ -174,7 +174,7 @@ p{
 }
 .p{
     display: block;
-    margin-left: 10px;
+    margin-left: 15vw;
     padding: 20px;
     font-family: var(--fontNormal);
     font-size: 1.05em;
