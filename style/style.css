@@ -174,9 +174,17 @@ p{
 }
 .p{
     display: block;
-    margin-left: 15vw;
     padding: 20px;
+    margin: 3vw;
     font-family: var(--fontNormal);
     font-size: 1.05em;
     text-align: justify;
+}
+#imagesett{
+    border-radius: 5%;
+    transform: translate(30vw, -30vh);
+    width: 300px;
+}
+#pararsett{
+    transform: translate(45vw, -25vh);
 }
