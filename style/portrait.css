@@ -34,17 +34,37 @@ section#presentation > h1{
 }
 .diver > img{
     display: block;
-    width:  80px;
-    height: 80px;
+    width:  120px;
+    height: 120px;
     margin: 0px 20px  20px 0px;
 }
 .diver  p{
     display: block;
-    width: 50vw;
+    width: 100vw;
+    margin-left: -25px;
 }
 #diveren{
     margin: auto;
 }
 #divere{
 margin: auto; 
+}
+#pararsett{
+    transform: translate(6vw, -2.5vh);
+}
+.p{
+    display: block;
+    padding: 20px;
+    margin: 10vw 5vw 10vw 10vw;
+    transform: translateX(6vw);
+    font-family: var(--fontNormal);
+    font-size: 1.05em;
+    width: 100vw;
+    text-align: justify;
+}
+#imagesett{
+    display: block;
+    border-radius: 5%;
+    transform: translate(2.5vw, -2.5vh);
+    width: 300px;
 }
