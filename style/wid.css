@@ -16,3 +16,9 @@ a#burguinho > img{
     transform: translate(15vw, -2.5vh);
     width: 300px;
 }
+#diveren{
+    margin-left: 15vw;
+}
+#divere{
+    margin-left: 8vw;
+}
