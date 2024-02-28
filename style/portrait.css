@@ -68,3 +68,23 @@ margin: auto;
     transform: translate(2.5vw, -2.5vh);
     width: 300px;
 }
+article p{
+    width: 50vw;
+}
+article img{
+    width: 50px;
+    height: 55px;
+}
+#div{
+
+    border-bottom: 5px solid #D7D8D9;
+    border-right: 0px solid #373f47;
+}
+#divp{
+    border-bottom: 5px solid #D7D8D9;
+    border-right: 0px solid #373f47;
+}
+#divpp{
+    border-bottom: 5px solid #D7D8D9;
+    border-right: 0px solid #373f47;
+}
