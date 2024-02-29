@@ -20,7 +20,7 @@ section#presentation > img{
 }
 section#presentation > h1{
     font-size: 2em;
-    padding: 0px 15px 0px 10px;
+    padding: 0px 15px 0px 20px;
     margin: auto;
     max-width: 350px;
     margin-top: -20px;
@@ -75,16 +75,9 @@ article img{
     width: 50px;
     height: 55px;
 }
-#div{
-
-    border-bottom: 5px solid #D7D8D9;
-    border-right: 0px solid #373f47;
-}
-#divp{
-    border-bottom: 5px solid #D7D8D9;
-    border-right: 0px solid #373f47;
-}
-#divpp{
-    border-bottom: 5px solid #D7D8D9;
-    border-right: 0px solid #373f47;
+#img{
+    width: 50vw;
+    height: 50vw;
+    margin-top: 40px;
+    margin: auto;
 }
