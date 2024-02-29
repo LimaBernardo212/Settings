@@ -16,6 +16,9 @@
     margin: 0px;
     padding: 0px;
 }
+html{
+    overflow-x: hidden;
+}
 body{
     background-color: var(--cor01);
 }
@@ -33,6 +36,7 @@ header{
 header > img{
     height: 80px;
     width: 180px;
+    margin-left: 15px;
 }
 header nav > a{
     padding: 30px;
@@ -90,12 +94,11 @@ section#presentation > h1{
 .title{
     color: var(--cor05);
     margin-left: 10vw;
-    font-size: 3em;
+    font-size: 2.7em;
     font-family: var(--fontNormal);
     line-height:1.5;
     font-weight: bold;
-    max-width: 600px;
-    
+    max-width: 700px;
 }
 
 #conosco{
@@ -151,7 +154,7 @@ article{
     width: 93vw;
     margin: 10px;
     padding: 10px;
-    height: 50vh;
+    height: 60vh;
     flex-wrap: wrap;
 }
 article img{
@@ -159,55 +162,32 @@ article img{
     height: 75px;
     margin: 10px;
 }
-#div{
+#trans{
     display: inline-flex;
+    height: 60vh;
+    transition-duration: 5.0s;
     padding: 10px;
-    border-right: 5px solid #D7D8D9;
-    
+    flex-wrap: wrap;
 }
-#div h1{
+h2{
+    color: var(--cor04);
+    font-size: 1em;
     font-family: var(--fontTitle);
-    font-weight: 400;
-    font-size: 1.1em;
-    padding:  10px 5px;
+    margin-left: 8vw;
 }
-#div p{
-     max-width: 300px;
+p{
+    color: var(--cor04);
+    font-size: 1.2em;
     font-family: var(--fontNormal);
+    max-width: 600px;
+    font-weight: bold;
     text-align: justify;
-    padding:  10px 5px;
+    margin: 2vh 10vw;
 }
-#divp{
+#img{
     display: inline-flex;
-    padding: 10px;
-    border-right: 5px solid #D7D8D9;
-    
-}
-#divp h1{
-    font-family: var(--fontTitle);
-    font-weight: 400;
-    font-size: 1.1em;
-    padding:  10px 5px;
-}
-#divp p{
-    max-width: 300px;
-    font-family: var(--fontNormal);
-    text-align: justify;
-    padding:  10px 5px;
-}
-#divpp{
-    display: inline-flex;
-    padding:  10px 5px;
-}
-#divpp h1{
-    font-family: var(--fontTitle);
-    font-weight: 400;
-    font-size: 1.1em;
-    padding: 10px 5px;
-}
-#divpp p{
-     max-width: 300px;
-    font-family: var(--fontNormal);
-    text-align: justify;
-    padding:  10px 5px;
+    width: 390px;
+    height: 390px;
+    margin-top: -25px;
+    border-radius: 50%;
 }
