@@ -169,7 +169,7 @@ article img{
     flex-wrap: nowrap;
     align-items: center;
     animation-name: slide;
-    animation-duration: 2s;
+    animation-duration: 5s;
     
     border-left: 5px solid #D7D8D9;
 }
