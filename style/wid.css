@@ -22,3 +22,9 @@ a#burguinho > img{
 #divere{
     margin-left: 8vw;
 }
+#trans{
+    flex-wrap: wrap;
+}
+#trans img{
+    margin: auto;
+}
