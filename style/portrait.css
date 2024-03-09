@@ -94,9 +94,10 @@ article img{
     
 }
 .process{
+    display: block;
     width: 90vw;
     margin: auto;
-    border-bottom: 5px solid #D7D8D9;
+    border-bottom: 5px solid #373f47;
     border-right: 0px solid #373f47;
     padding: 40px -2px;
 }
@@ -104,11 +105,21 @@ article img{
     border-right: 0px solid #373f47;
 }
 .title{
-    font-size: 2.50em;
+    font-size: 2.40em;
 }
 h2{
     font-size: 0.8em;
 }
 .process p{
-    width: 250px;
+    width: 70vw;
+    margin: auto;
+}
+.process img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+.process h2{
+    font-size: 0.8em;
 }
