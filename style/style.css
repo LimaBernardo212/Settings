@@ -230,8 +230,8 @@ p{
     align-items: center;
     animation-name: slideer;
     animation-duration: 3.5s;
-    margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 420px;
+    border-left: 5px solid #D7D8D9;
 }
 .process{
     display: inline-flex;
