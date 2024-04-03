@@ -218,20 +218,33 @@ p{
     border-radius: 50%;
     margin-bottom: 50px;
 }
+#imgg{
+    display: inline-flex;
+    width: 400px;
+    height: 400px;
+    margin-top: 0px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
 #pad{
     padding: 80px;
     display: block;
 }
 #transit{
-    display: block;
+    display: inline-flex;
     height: 60vh;
-    padding: 55px 0px 0px 0px;
+    padding: 20px 0px 0px 0px;
     flex-wrap: nowrap;
     align-items: center;
     animation-name: slideer;
     animation-duration: 3.5s;
-    margin-top: 420px;
+    margin-top: 220px;
     border-left: 5px solid #D7D8D9;
+}
+#transit p{
+    max-width: 500px;
+    text-align: justify;
 }
 .process{
     display: inline-flex;

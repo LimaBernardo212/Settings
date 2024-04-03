@@ -127,3 +127,36 @@ h2{
     width: 50vw;
     height: 50vh;
 }
+#transit{
+    display: inline-flex;
+    height: 60vh;
+    padding: 20px 0px 0px 0px;
+    flex-wrap: wrap;
+    align-items: center;
+    animation-name: slideer;
+    animation-duration: 3.5s;
+    margin-top: 50px;
+    border-left: none;
+    border-bottom: 5px solid #D7D8D9;
+}
+#transit p{
+    max-width: 500px;
+    text-align: justify;
+}
+#imgg{
+    position: relative;
+    width: 80vw;
+    height: 69vh;
+    top: 720px;
+    margin-left: 30px;
+}
+#trans{
+    display: inline-flex;
+    height: 60vh;
+    padding: 10px;
+    flex-wrap: nowrap;
+    align-items: center;
+    animation-name: slide;
+    animation-duration: 3.5s;
+    border-left: none;
+}
