@@ -21,7 +21,7 @@ section#presentation > img{
 section#presentation > h1{
     font-size: 2em;
     padding: 0px 15px 0px 20px;
-    margin: 25px;
+    margin: 10px;
     max-width: 350px;
     margin-top: -20px;
 }
@@ -145,8 +145,7 @@ h2{
 }
 #imgg{
     position: relative;
-    width: 80vw;
-    height: 60vh;
+    border-radius: 50%;
     top: 800px;
     margin-left: 30px;
 }
