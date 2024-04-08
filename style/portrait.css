@@ -146,6 +146,8 @@ h2{
     position: relative;
     border-radius: 50%;
     top: 800px;
+    width: 75%;
+    height: 70%;
     margin-left: 15px;
 }
 #trans{
