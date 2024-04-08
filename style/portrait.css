@@ -139,14 +139,14 @@ h2{
     border-bottom: 5px solid #D7D8D9;
 }
 #transit p{
-    max-width: 500px;
+    max-width: 400px;
     text-align: justify;
 }
 #imgg{
     position: relative;
     border-radius: 50%;
     top: 800px;
-    margin-left: 30px;
+    margin-left: 15px;
 }
 #trans{
     display: inline-flex;
