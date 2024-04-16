@@ -28,3 +28,11 @@ a#burguinho > img{
 #trans img{
     margin: auto;
 }
+#transit p{
+    margin-left: 70px;
+    max-width: 350px;
+}
+#imgg{
+    margin-left: 50px;
+    margin-top: -10px;
+}
