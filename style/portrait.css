@@ -128,7 +128,7 @@ h2{
 }
 #transit{
     display: inline-flex;
-    height: 40vh;
+    height: 30vh;
     padding: 20px 0px 0px 0px;
     flex-wrap: wrap;
     align-items: center;
@@ -139,14 +139,14 @@ h2{
     border-bottom: 5px solid #D7D8D9;
 }
 #transit p{
+    margin-left: 25px;
     max-width: 250px;
     text-align: justify;
-    margin: auto;
 }
 #imgg{
     position: relative;
     border-radius: 50%;
-    top: 650px;
+    top: 750px;
     width: 75vw;
     height: 45vh;
     margin:auto;
@@ -160,4 +160,10 @@ h2{
     animation-name: slide;
     animation-duration: 3.5s;
     border-left: none;
+}
+#transit .title{
+    margin-left: 25px;
+}
+#imgg{
+    margin-top: -10px;
 }

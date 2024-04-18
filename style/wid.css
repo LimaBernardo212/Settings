@@ -29,10 +29,12 @@ a#burguinho > img{
     margin: auto;
 }
 #transit p{
-    margin-left: 70px;
+    margin-left: 75px;
     max-width: 350px;
 }
-#imgg{
+#transit .title{
     margin-left: 50px;
+}
+#imgg{
     margin-top: -10px;
 }
