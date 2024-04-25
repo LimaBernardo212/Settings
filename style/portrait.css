@@ -21,8 +21,11 @@ section#presentation > img{
 section#presentation > h1{
     font-size: 2em;
     padding: 0px 15px 0px 20px;
-    margin: 10px;
+    margin-top: -150px;
+    margin-left: 50px;
+    font-size: 1.95em;
     max-width: 350px;
+    
 }
 
 .diver{
@@ -80,14 +83,14 @@ article img{
     margin-top: 40px;
     margin: auto;
 }
-#trans h1{
+.trans h1{
     font-size: 2em;
     width: 85vw;
 }
-#trans p{
+.trans p{
     max-width: 75vw;
 }
-#trans img{
+.trans img{
     width: 80vw;
     height: 80vw;
     
@@ -123,8 +126,8 @@ h2{
     font-size: 0.8em;
 }
 #img{
-    width: 50vw;
-    height: 50vh;
+    width: 75vw;
+    height: 65vh;
 }
 #transit{
     display: inline-flex;
@@ -146,20 +149,22 @@ h2{
 #imgg{
     position: relative;
     border-radius: 50%;
-    top: 750px;
+    top: 700px;
     width: 75vw;
-    height: 45vh;
+    height: 65vh;
     margin:auto;
 }
-#trans{
+.trans{
     display: inline-flex;
-    height: 100vh;
+    height: 80vh;
     padding: 10px;
     flex-wrap: nowrap;
     align-items: center;
     animation-name: slide;
     animation-duration: 3.5s;
     border-left: none;
+    flex-wrap: wrap;
+
 }
 #transit .title{
     margin-left: 25px;

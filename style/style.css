@@ -165,9 +165,9 @@ article img{
     height: 75px;
     margin: 10px;
 }
-#trans{
+.trans{
     display: inline-flex;
-    height: 60vh;
+    height: 90vh;
     padding: 10px;
     flex-wrap: nowrap;
     align-items: center;
@@ -278,3 +278,26 @@ p{
 #sob{
     margin-bottom: -30px;
 }
+#button{
+    padding: 10px;
+    text-align: center;
+    background-color: var(--cor05);
+    margin-top: 35px;
+    width: 300px;
+    margin-left: 230px;
+    border-radius: 20px;
+    color: var(--cor01);
+}
+#button:hover{
+    background-color: var(--cor04);
+    color: var(--cor01);
+    text-decoration: underline;
+}
+#button > a{
+    color: var(--cor01);
+    text-decoration: none;
+    font-family: var(--fontNormal);
+    font-weight: bold;
+    padding: 50px;
+}
+
