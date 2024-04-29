@@ -21,7 +21,7 @@ section#presentation > img{
 section#presentation > h1{
     font-size: 2em;
     padding: 0px 15px 0px 20px;
-    margin-top: -150px;
+    margin-top: -250px;
     margin-left: 50px;
     font-size: 1.95em;
     max-width: 350px;
@@ -149,7 +149,7 @@ h2{
 #imgg{
     position: relative;
     border-radius: 50%;
-    top: 700px;
+    top: 800px;
     width: 75vw;
     height: 45vh;
     margin:auto;
@@ -167,12 +167,21 @@ h2{
 
 }
 #transit .title{
-    margin-left: 25px;
-    font-size: 1.5em;
+    margin-left: 15px;
+    font-size: 1.25em;
 }
 #imgg{
     margin-top: -10px;
 }
 #button{
     margin-left: 20px;
+}
+.title::before{
+    content: '—';
+    color: var(--cor05);
+    font-weight: lighter;
+    letter-spacing: 10px;
+}
+.title{
+    margin-left: 17.5px;
 }
