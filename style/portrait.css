@@ -127,7 +127,7 @@ h2{
 }
 #img{
     width: 75vw;
-    height: 65vh;
+    height: 45vh;
 }
 #transit{
     display: inline-flex;
@@ -151,7 +151,7 @@ h2{
     border-radius: 50%;
     top: 700px;
     width: 75vw;
-    height: 65vh;
+    height: 45vh;
     margin:auto;
 }
 .trans{
@@ -168,7 +168,11 @@ h2{
 }
 #transit .title{
     margin-left: 25px;
+    font-size: 1.5em;
 }
 #imgg{
     margin-top: -10px;
+}
+#button{
+    margin-left: 20px;
 }
