@@ -300,5 +300,19 @@ p{
     font-weight: bold;
     padding: 50px;
 }
-
+#portifolio{
+    padding: 15px;
+    background-color: var(--cor05);
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+#portifolio a{
+    margin-right: 25px;
+}
+#portifolio a:hover{
+    position: relative;
+    top: -7px;
+    left: 7px;
+}
 
