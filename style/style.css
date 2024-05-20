@@ -308,11 +308,17 @@ p{
     border-radius: 20px;
 }
 #portifolio a{
-    margin-right: 25px;
+    margin-right: 55px;
 }
 #portifolio a:hover{
     position: relative;
     top: -7px;
     left: 7px;
+}
+.Sp{
+    width: 100px;
+}
+#center{
+    margin-left: 30vw;
 }
 
