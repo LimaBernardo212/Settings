@@ -324,4 +324,15 @@ p{
 #margint{
     margin-top: 50px;
 }
-
+#imggg{
+    display: inline-flex;
+    width: 450px;
+    height: 450px;
+    margin-top: 0px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+#rendext{
+    display: inline-flex;
+    padding: 50px;
+}
