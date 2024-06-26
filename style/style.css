@@ -341,8 +341,8 @@ p{
     top: 50px;
     margin-left: 12vw;
     padding: 20px 200px;
-    background-color: var(--cor04);
-    color: var(--cor06);
+    background-color: var(--cor05);
+    color: var(--cor01);
     text-decoration: none;
     border-radius: 35px;
     font-family: var(--fontNormal);
@@ -350,29 +350,23 @@ p{
 }
 #Inscrever:hover{
     text-decoration: underline;
-    background-color: var(--cor05);
+    background-color: #ffff;
 }
 footer{
-    background-color: var(--cor03);
+    background-color: #ffff;
     padding: 10px;
-    width: 100vw;
-}
-.footer{
-    display: flexbox;
-    margin: 9.3vw;
-    text-decoration: none;
-    color: var(--cor06);
-    font-family: var(--fontNormal);
-    font-weight: bold;
-}
-.footer:hover{
-    text-decoration: underline;
+    width: 99vw;
 }
 .credits{
     position: relative;
     padding: 5px;
     font-size: 1em;
-    color: var(--cor06);
+    color: var(--cor01);
     text-decoration: none;
-    left: 15.5vw;
+    margin: auto;
+    margin-left: 19vw;
+}
+.credits:hover{
+    color: var(--cor02);
+    text-decoration: underline;
 }
