@@ -370,3 +370,8 @@ footer{
     color: var(--cor02);
     text-decoration: underline;
 }
+#interg{
+    font-size: 500px;
+    color: var(--cor05);
+    font-family: var(--fontTitle);
+}
