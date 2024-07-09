@@ -375,3 +375,11 @@ footer{
     color: var(--cor05);
     font-family: var(--fontTitle);
 }
+#im{
+    display: inline-flex;
+    width: 400px;
+    height: 400px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
