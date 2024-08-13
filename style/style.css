@@ -390,3 +390,6 @@ footer{
     border: 3px solid #666D73;
     border-radius: 7%;
 }
+.boxy{
+    display: inline-flex;
+}
