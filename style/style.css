@@ -393,3 +393,25 @@ footer{
 .boxy{
     display: inline-flex;
 }
+#buttoon{
+    padding: 10px;
+    text-align: center;
+    background-color: var(--cor05);
+    margin-top: 35px;
+    width: 350px;
+    margin-left: 145px;
+    border-radius: 20px;
+    color: var(--cor01);
+}
+#buttoon:hover{
+    background-color: var(--cor04);
+    color: var(--cor01);
+    text-decoration: underline;
+}
+#buttoon > a{
+    color: var(--cor01);
+    text-decoration: none;
+    font-family: var(--fontNormal);
+    font-weight: bold;
+    padding: 50px;
+}
