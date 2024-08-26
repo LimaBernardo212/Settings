@@ -168,6 +168,7 @@ article img{
 .trans{
     display: inline-flex;
     height: 90vh;
+    margin-top: 150px;
     padding: 10px;
     flex-wrap: nowrap;
     align-items: center;
@@ -414,4 +415,27 @@ footer{
     font-family: var(--fontNormal);
     font-weight: bold;
     padding: 50px;
+}
+#login{
+    margin-left: 75px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding: 55px 150px
+    300px 200px;
+    border-radius: 25px;
+    background-color: var(--cor05);
+    width: 400px;
+    height: 150px;
+}
+label{
+    display: block;
+    font-family: var(--fontTitle);
+    color: var(--cor06);
+    font-weight: bold;
+}
+input{
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    margin: 5px;
 }
