@@ -439,3 +439,17 @@ input{
     border-radius: 15px;
     margin: 5px;
 }
+#buttton{
+    display: block;
+    margin-left: 155px;
+    margin-top: 75px;
+    text-decoration: none;
+    color: var(--cor05);
+    font-weight: bold;
+    font-family: var(--fontNormal);
+    font-size: 1.05em;
+}
+#buttton:hover{
+    text-decoration: underline;
+    color: var(--cor04);
+}
