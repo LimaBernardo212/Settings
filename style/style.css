@@ -479,3 +479,48 @@ input{
 #vid{
     margin-top: -150px;
 }
+header#acount{
+    position: sticky;
+    top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    border-bottom: 5px solid var(--cor01);
+}
+header#acount > img{
+    height: 80px;
+    width: 180px;
+    margin-left: 15px;
+}
+header#acount nav > a{
+    padding: 25px;
+    color: var(--cor01);
+    font-family: var(--fontNormal);
+    text-decoration: none;
+    font-weight: 550;
+}
+header#acount nav > a:hover{
+    font-weight: 560;
+    text-decoration: underline;
+}
+header#acount > nav{
+    background-color:white;
+    
+}
+#conosc{
+    border: 3px  solid var(--cor01);
+    padding: 0px;
+    
+}
+#conosc:hover{
+    text-decoration: none;
+    border: 3px solid var(--cor03);
+    color: var(--cor03);
+}
+#body{
+    background-color: white;
+}
