@@ -523,4 +523,42 @@ header#acount > nav{
 }
 #body{
     background-color: white;
+    color: var(--cor01);
+}
+.transr{
+    display: block;
+    height: 30vh;
+    margin-top: 5px;
+    padding: 10px;
+    flex-wrap: nowrap;
+    align-items: center;
+    animation-name: slide;
+    animation-duration: 3.5s;
+    border-left: 5px solid #D7D8D9;
+    
+}
+#titler{
+        color: var(--cor01);
+        margin-left: 10vw;
+        font-size: 2.7em;
+        font-family: var(--fontNormal);
+        line-height:1.5;
+        margin-top: 30px;
+        font-weight: bold;
+        max-width: 700px;
+}
+#titler::before{
+    content: '—';
+    color: var(--cor01);
+    font-weight: lighter;
+    letter-spacing: 20px;
+}
+#prog{
+    color: var(--cor01);
+}
+.parceiros{
+    display: block;
+    border-bottom: 3px solid var(--cor01);
+    border-top:  3px solid var(--cor01);
+
 }
