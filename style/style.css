@@ -559,6 +559,44 @@ header#acount > nav{
 .parceiros{
     display: block;
     border-bottom: 3px solid var(--cor01);
-    border-top:  3px solid var(--cor01);
-
+    border-left: 3px solid var(--cor01);
+    border-right: 3px solid var(--cor01);
+    margin-top: 10px;
+    width: 1000px;
+    padding: 7px;
+    margin-left: 140px;
+}
+.parceiros:hover{
+    border-color: var(--cor03);
+}
+#lies{
+    margin-top: 150px;
+}
+#parceiros1{
+   border-top: 3px solid var(--cor01);
+   padding: 7px;
+}
+#parceiros1:hover{
+    border-color: var(--cor03);
+}
+#p01{
+    color: var(--cor01);
+    font-size: 1em;
+    padding: 0px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+#p02{
+    color: var(--cor01);
+    font-size: 1em;
+    padding: 0px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+#p03{
+    color: var(--cor01);
+    font-size: 1em;
+    padding: 0px;
+    margin-bottom: 2px;
+    margin-top: 2px;
 }
