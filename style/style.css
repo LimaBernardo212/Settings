@@ -600,3 +600,9 @@ header#acount > nav{
     margin-bottom: 2px;
     margin-top: 2px;
 }
+.parca{
+    text-decoration: none;
+}
+.parca:hover{
+    text-decoration: underline;
+}
