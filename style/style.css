@@ -558,9 +558,9 @@ header#acount > nav{
 }
 .parceiros{
     display: block;
-    border-bottom: 3px solid var(--cor01);
-    border-left: 3px solid var(--cor01);
-    border-right: 3px solid var(--cor01);
+    border-bottom: 3px solid var(--cor05);
+    border-left: 3px solid var(--cor05);
+    border-right: 3px solid var(--cor05);
     margin-top: 10px;
     width: 1000px;
     padding: 7px;
@@ -570,31 +570,48 @@ header#acount > nav{
     border-color: var(--cor03);
 }
 #lies{
-    margin-top: 150px;
+    margin-top: 115px;
 }
 #parceiros1{
-   border-top: 3px solid var(--cor01);
+   border-top: 3px solid var(--cor05);
    padding: 7px;
 }
 #parceiros1:hover{
     border-color: var(--cor03);
 }
 #p01{
-    color: var(--cor01);
+    color: var(--cor05);
     font-size: 1em;
     padding: 0px;
     margin-bottom: 3px;
     margin-top: 3px;
 }
+#p02:hover{
+    border-color: var(--cor03);
+}
 #p02{
-    color: var(--cor01);
+    color: var(--cor05);
     font-size: 1em;
     padding: 0px;
     margin-bottom: 2px;
     margin-top: 2px;
 }
 #p03{
-    color: var(--cor01);
+    color: var(--cor05);
+    font-size: 1em;
+    padding: 0px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+#p04{
+    color: var(--cor05);
+    font-size: 1em;
+    padding: 0px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+#p05{
+    color: var(--cor05);
     font-size: 1em;
     padding: 0px;
     margin-bottom: 2px;
@@ -605,4 +622,5 @@ header#acount > nav{
 }
 .parca:hover{
     text-decoration: underline;
+    text-decoration-color: var(--cor05);
 }
