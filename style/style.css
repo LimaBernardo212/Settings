@@ -639,8 +639,12 @@ header#acount > nav{
 }
 #divVertical{
     text-align: right;
-    margin-top: -450px;
-    margin-right: 25px;
+    margin-top: -425px;
+    margin-right: 75px;
     
     
+}
+.star{
+    margin-top: -50px;
+    margin-left: 275px;
 }
