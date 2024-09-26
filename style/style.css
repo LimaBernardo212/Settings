@@ -633,18 +633,60 @@ header#acount > nav{
 }
 #div2{
     border-right: 3px solid var(--cor05);
-    padding: 35px;
+    padding: 70px 35px;
     padding-top: 75px;
     width: 750px;
+    height: 115px;
+
 }
 #divVertical{
     text-align: right;
-    margin-top: -425px;
+    margin-top: -475px;
     margin-right: 75px;
     
     
 }
 .star{
-    margin-top: -50px;
-    margin-left: 275px;
+    margin-top: -15px;
+    margin-left: 25px;
+}
+.starp{
+    font-size: 0.8em;
+    margin-left: 250px;
+    margin-top: -20px;
+}
+
+#butttton{
+    display: block;
+    margin-left: 385px;
+    margin-top: -75px;
+    text-decoration: none;
+    color: var(--cor01);
+    font-weight: bold;
+    font-family: var(--fontNormal);
+    font-size: 1.05em;
+    background-color: var(--cor05);
+    width: 300px;
+    padding: 10px;
+    border-radius: 50px;
+    text-align: center;
+}
+#butttton a:hover{
+    text-decoration: underline;
+    color: var(--cor02);
+}
+#butttton a{
+    text-decoration: none;
+    color: var(--cor01);
+}
+.transis{
+    display: inline-flex;
+    height: 90vh;
+    margin-top: 210px;
+    padding: 10px;
+    flex-wrap: nowrap;
+    width: 100vw;
+    align-items: center;
+    border-top: 3px solid var(--cor05);
+   
 }
