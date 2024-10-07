@@ -420,15 +420,14 @@ footer{
     padding: 50px;
 }
 #login{
-    margin-left: 75px;
-    margin-top: 150px;
+    margin-left: 155px;
+    margin-top: 450px;
     margin-bottom: 150px;
     padding: 55px 150px
-    300px 200px;
-    border-radius: 25px;
+    0px 200px;
     background-color: var(--cor05);
-    width: 400px;
-    height: 125px;
+    width: 600px;
+    height: 55vw;
 }
 label{
     display: block;
@@ -481,6 +480,7 @@ input{
 }
 #vid{
     margin-top: -150px;
+    margin-right: -50px;
 }
 header#acount{
     position: sticky;
@@ -729,4 +729,61 @@ header#acount > nav{
     background-color: var(--cor04);
     color: var(--cor02);
 
+}
+#form{
+    display: inline;
+    padding: 0px;
+}
+#fen{
+    display: inline;
+    height: 30px;
+}
+#fen label{
+    display: inline;
+}
+legend{
+    color: var(--cor06);
+    font-size: 0.9em;
+    font-weight: bold;
+    font-family: var(--fontTitle);
+}
+#program{
+    height: 30px;
+}
+.transiters{
+    display: inline-flex;
+    height: 90vh;
+    margin-top: 0px;
+    padding: 10px;
+    flex-wrap: nowrap;
+    width: 100vw;
+    align-items: center;
+    animation-name: slide;
+    animation-duration: 3.5s;
+    border-left: 5px solid #D7D8D9;
+    border-bottom: 5px solid var(--cor04);
+}
+.transiter{
+    display: inline-flex;
+    height: 90vh;
+    margin-top: 175px;
+    padding: 10px;
+    flex-wrap: nowrap;
+    width: 100vw;
+    align-items: center;
+    animation-name: slide;
+    animation-duration: 3.5s;
+    border-left: 5px solid #D7D8D9;
+    border-bottom: 5px solid var(--cor04);
+}
+i{
+    background-color: var(--cor02);
+}
+i > a{
+    color: var(--cor05);
+    text-decoration: none;
+}
+#imgth{
+    width: 214px;
+    height: 156px;
 }
