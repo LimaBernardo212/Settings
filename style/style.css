@@ -824,7 +824,7 @@ i > a{
     animation-duration: 3.5s;
     border-left: 5px solid #D7D8D9;
     border-bottom: 5px solid var(--cor04);
-    background-image: linear-gradient(silver,rgb(80, 72, 72));
+    background-image: linear-gradient(#c0c0c0,rgb(80, 72, 72));
 }
 #prata:hover img{
     transform: rotate(3336660deg);
@@ -845,6 +845,50 @@ i > a{
     background-image: linear-gradient(gold,#80711d);
 }
 #gold:hover img{
+    transform: rotate(3336660deg);
+    transition: all 100220s ease;
+}
+#golder{
+        background-color: goldenrod;
+        padding: 2px;
+}
+#platine{
+    display: inline-flex;
+    height: 90vh;
+    margin-top: 0px;
+    padding: 10px;
+    flex-wrap: nowrap;
+    width: 100vw;
+    align-items: center;
+    animation-name: slide;
+    animation-duration: 3.5s;
+    border-left: 5px solid #D7D8D9;
+    border-bottom: 5px solid var(--cor04);
+    background-image: linear-gradient(#5f9ea0 , rgb(40, 78, 80));
+}
+#platine:hover img{
+    transform: rotate(3336660deg);
+    transition: all 100220s ease;
+}
+#diamond{
+    display: inline-flex;
+    height: 90vh;
+    margin-top: 0px;
+    padding: 10px;
+    flex-wrap: nowrap;
+    width: 100vw;
+    align-items: center;
+    animation-name: slide;
+    animation-duration: 3.5s;
+    border-left: 5px solid #D7D8D9;
+    border-bottom: 5px solid var(--cor04);
+    background-image: linear-gradient(blue,rgb(30, 30, 109));
+}
+.marker{
+    padding: 2px;
+    background-color: blue;
+}
+#diamond:hover img{
     transform: rotate(3336660deg);
     transition: all 100220s ease;
 }
