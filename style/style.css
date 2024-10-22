@@ -693,6 +693,7 @@ header#acount > nav{
     padding: 30px;
     margin-left: -50px;
     padding-right: 120px;
+    width: 100vw;
 }
 .person{
     border-radius: 50%;
@@ -891,4 +892,13 @@ i > a{
 #diamond:hover img{
     transform: rotate(3336660deg);
     transition: all 100220s ease;
+}
+
+.imatext{
+    display: inline;
+    margin-left: 25px;
+}
+#imaT{
+    margin-top: -230px;
+    margin-left: 22vw;
 }
