@@ -909,9 +909,30 @@ i > a{
     padding: 220px;
 
 }
-#img4{
+.img4{
     border-radius: 50%;
+    margin-right: 25px;
 }
 #diver{
     padding-top: 125px;
+}
+.CHUTEDOKWON{
+    padding: 15px;
+    padding-left: 225px;
+    padding-right: 225px;
+    border-radius: 25px;
+    background-color: var(--cor05);
+    margin-left: 145px;
+    text-decoration: none;
+    color: var(--cor01);
+    font-weight: bold;
+    font-family: var(--fontNormal);
+}
+.CHUTEDOKWON:hover{
+    text-decoration: underline;
+    color: var(--cor02);
+    background-color: var(--cor04);
+}
+.KWON{
+    margin-bottom: 25px;
 }
