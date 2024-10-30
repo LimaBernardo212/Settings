@@ -636,14 +636,14 @@ header#acount > nav{
 #div2{
     border-right: 3px solid var(--cor05);
     padding: 70px 35px;
-    padding-top: 75px;
+    padding-top: 105px;
     width: 750px;
-    height: 115px;
+    height: 175px;
 
 }
 #divVertical{
     text-align: right;
-    margin-top: -475px;
+    margin-top: -520px;
     margin-right: 75px;
     
     
@@ -688,9 +688,8 @@ header#acount > nav{
 #gang{
     display: block;
     margin-top: -123px;
-    border-right: 3px solid var(--cor05);
-    border-bottom: 3px solid var(--cor05);
     padding: 30px;
+    margin-bottom: -100px;
     margin-left: -50px;
     padding-right: 120px;
     width: 100vw;
@@ -898,6 +897,7 @@ i > a{
     display: inline;
     margin-left: 25px;
 }
+
 #imaT{
     margin-top: -230px;
     margin-left: 22vw;
@@ -935,4 +935,20 @@ i > a{
 }
 .KWON{
     margin-bottom: 25px;
+}
+.transBetina{
+    display: inline-flex;
+    height: 90vh;
+    margin-top: 25px;
+    padding: 10px;
+    flex-wrap: nowrap;
+    width: 100vw;
+    align-items: center;
+    animation-name: slide;
+    animation-duration: 3.5s;
+    border-left: 5px solid #D7D8D9;
+    border-bottom: 5px solid var(--cor04);
+}
+#SHADOWBOXING{
+    margin-bottom: 50px;
 }
