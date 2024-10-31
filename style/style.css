@@ -638,12 +638,12 @@ header#acount > nav{
     padding: 70px 35px;
     padding-top: 105px;
     width: 750px;
-    height: 175px;
+    height: 115px;
 
 }
 #divVertical{
     text-align: right;
-    margin-top: -520px;
+    margin-top: -500px;
     margin-right: 75px;
     
     
@@ -712,15 +712,15 @@ header#acount > nav{
 }
 #nom{
     color: var(--cor05);
-    margin-left: 500px;
-    margin-top: 25px;
-    width: 400px;
+    margin-left: 150px;
+    margin-top: 0px;
+    width: 600px;
 }
 #nom a{
     color: var(--cor01);
     text-decoration: none;
     background-color: var(--cor05);
-    padding: 15px 45px;
+    padding: 15px 195px;
     border-radius: 35px;
 }
 #nom a:hover{
@@ -950,5 +950,26 @@ i > a{
     border-bottom: 5px solid var(--cor04);
 }
 #SHADOWBOXING{
+    margin-bottom: 50px;
+}
+.CHUTEDOKWONer{
+    padding: 15px;
+    padding-left: 225px;
+    padding-right: 225px;
+    border-radius: 25px;
+    background-color: var(--cor05);
+    margin-top: 45px;
+    margin-left: 145px;
+    text-decoration: none;
+    color: var(--cor01);
+    font-weight: bold;
+    font-family: var(--fontNormal);
+}
+.CHUTEDOKWONer:hover{
+    text-decoration: underline;
+    color: var(--cor02);
+    background-color: var(--cor04);
+}
+#Ner{
     margin-bottom: 50px;
 }
