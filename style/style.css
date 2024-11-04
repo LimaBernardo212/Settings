@@ -420,13 +420,13 @@ footer{
 }
 #login{
     margin-left: 155px;
-    margin-top: 450px;
-    margin-bottom: 150px;
+    margin-top: 125px;
+    
     padding: 55px 150px
     0px 200px;
     background-color: var(--cor05);
     width: 600px;
-    height: 55vw;
+    height: 90vh;
 }
 label{
     display: block;
@@ -972,4 +972,7 @@ i > a{
 }
 #Ner{
     margin-bottom: 50px;
+}
+#sdm{
+    padding: 2.5px;
 }
